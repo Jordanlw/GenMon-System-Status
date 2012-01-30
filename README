@@ -1,3 +1,11 @@
-Displays, network usages in apropriate measurements, cpu percentage combined for all cores from 0% to 100% and memory usage in percentage, counts buffer & cache usage as free.
+*DESCRIPTION:
+Displays, network usages in apropriate measurements, cpu percentage combined for all cores from 0% to 100% and memory usage in percentage, counts buffer & cache usage as free. Information is displayed in taskbar with use of Generic Monitor (GenMon) which is a Xfce plugin.
 
+*CONTACT:
 Email me Jordan at jordanw2@gmail.com for problems, feature request and so on.
+
+*COMPILE:
+Link with -lrt
+
+*INSTALL:
+Install Xfce Generic Monitor (GenMon), add it to your Xfce taskbar, set the executable compiled with instructions above as the command (with path if needed) and set the period as 1 (second) as that is the only supported entry.
